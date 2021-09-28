@@ -1,0 +1,50 @@
+.inputele{
+    height: 5vh;
+    width: 25vw;;
+}
+.main-app> .row{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.movie-card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.img{
+    height: 150px;
+}
+.movie-list{
+    flex-wrap: nowrap;
+}
+.movie-card{
+    height: 250px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 10px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.movie-card:hover .overlay{
+    opacity: 1;
+}
+.para{
+    margin:0px;
+    color: white;
+    margin-right: 12px;
+}
+
+.heading{
+    font-size:24px;
+    font-family: sans-serif;
+
+}
